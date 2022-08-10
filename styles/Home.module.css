@@ -52,7 +52,7 @@
 .leftDiv p,
 .rightDiv p{
   color:white;
-  font-size: larger;
+  font-size: 3vmin;
   font-weight: bolder;
   position:relative;
   text-align: center;
@@ -62,7 +62,7 @@
 .leftDiv h1,
 .rightDiv h1{
   color:white;
-  font-size: 6vh;
+  font-size: 6vmin;
   font-weight: bolder;
   position:relative;
   text-align: center;
