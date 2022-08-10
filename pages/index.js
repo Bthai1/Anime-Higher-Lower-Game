@@ -103,7 +103,7 @@ export default function Home(props) {
           <p>has</p>
           <button onClick={checkHigher}>Higher</button>
           <button onClick={checkLower}>Lower</button>
-          <p>members than {animeTwo.data.title}</p>
+          <p>members than {animeOne.data.title}</p>
           </div>
         </div>
         <div className={styles.middleCircle}>
