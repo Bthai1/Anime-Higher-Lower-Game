@@ -1,0 +1,51 @@
+.start_screen{
+    height:100%;
+    width:100%;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url(../public/images/nazunaStart.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    color:white;
+    display:flex;
+    justify-content: center;
+}
+
+.end_screen{
+    height:100%;
+    width:100%;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url(../public/images/nazunaEnd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    color:white;
+    display:flex;
+    justify-content: center;
+}
+
+.end_screen_content,
+.start_screen_content{
+    margin-top:10%;
+}
+
+.end_screen h1,
+.start_screen h1{
+    margin: 0 0 0 0 ;
+}
+
+.end_screen button,
+.start_screen button{
+    width:12.5rem;
+    border-radius:2.5rem;
+    height:3.5rem;
+    font-weight: 700;
+    font-size:large;
+    cursor:pointer;
+}
